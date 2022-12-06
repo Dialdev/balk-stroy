@@ -1,0 +1,71 @@
+form#balconCalc {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    grid-gap: 5px;
+}
+
+form#balconCalc label {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    /* height: 50px; */
+    align-items: center;
+    position: relative;
+    margin: 10px 0;
+}
+
+form#balconCalc input[type=number] {
+    height: 25px;
+}
+
+input.square,
+#inner_price,
+#total-inner_price,
+#outer_price,
+#total-outer_price,
+#result{
+    outline: none;
+    border: none;
+}
+
+form#balconCalc fieldset {
+    margin-bottom: 0;
+}
+
+form#balconCalc:first-child label{
+    width: 265px;
+}
+
+select#finish-inner,
+select#finish-outer{
+    width: 200px;
+    height: 25px;
+}
+
+input#result {
+    font-size: 30px;
+    text-align: center;
+}
+
+/*form#balconCalc input{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+}
+
+form#balconCalc fieldset:last-child {
+    grid-column: 1/1;
+    height: auto;
+}
+
+form#balconCalc legend {
+    font-size: 18px;
+}
+
+form#balconCalc span{
+    padding: 0 20px;
+}
+
+form#balconCalc fieldset.wiping_wrap label {
+    height: auto;
+    margin: 5px 0;
+}*/
